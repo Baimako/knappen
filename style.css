@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+#container {
+  margin-top: 300px;
+  border: 3px solid mistyrose;
+  padding: 20px;
+  background-color: pink;
+}
+#my-button {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  background: mistyrose;
+  font-size: 20px;
+}
