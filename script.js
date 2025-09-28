@@ -1,12 +1,5 @@
-const btn = document.createElement("button"); // skapar knappen
-
-btn.textContent = "PRESS ME SENPAI~!"; //texten i knappen
-
-btn.classList.add("my-button"); //ger knappen class för att kunna styla i css
-
-const container = document.querySelector("#container"); // lägg till knappen icontainer elementet
-container.appendChild(btn); // lägg till som sista barn i containern
-
+const btn = document.querySelector("#my-button"); // hämtar element med my-button (id="my-button")
+// sparar elementet i en variabel som heter btn.
 btn.addEventListener("click", () => {
   //lägg till vad som händer när man klickar på knappen
   alert("Ikuuuuuu~!");
