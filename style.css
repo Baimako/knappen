@@ -13,3 +13,9 @@ body {
   background: mistyrose;
   font-size: 20px;
 }
+.blue-bg {
+  background-color: lightblue;
+}
+#my-button:hover {
+  background-color: aliceblue;
+}
